@@ -1,0 +1,68 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 75px;
+    height: 75px;
+}
+
+body{
+    background-color: #ebeef1;
+}
+.header{
+    padding: 10px;
+    text-align: center;
+    color: rgb(118, 158, 218);
+    background-color: white;
+}
+.container{
+    max-width: 900px;
+    background-color: #ebeef1;
+    margin:auto;
+    height: 50vh;
+    padding:33px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
+
+.message{
+background-color: #ebeef1;
+width: 24%;
+padding :10px;
+margin :17px 10px;
+border-radius: 10px;
+/* border:  2px solid rgb(218, 141, 154); */
+box-shadow: 14px 8px 14px 4px rgba(10,99,169,0.16),-10px -10px 10px -1px rgba(255,255,255,0.70);
+border: none;
+outline: none;
+}
+.left{
+float: left;
+clear:both;
+}
+.right{
+float: right;
+clear:both;
+}
+
+#send-container{
+    text-align: center;
+    margin: auto;
+    display: block;
+    max-width: 985px;
+    width: 100%;
+}
+#messageInp{
+width: 90%;
+height: 8vh;
+background: #ebeef1;
+border-radius: 10px;
+border: none;
+box-shadow: inset 5px 5px 5px -1px rgba(10,99,169,0.16), inset -7px -7px 7px -1px rgba(255,255,255,0.70);
+cursor: pointer;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 30px;
+}
